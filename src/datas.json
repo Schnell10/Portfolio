@@ -1,0 +1,19 @@
+[
+   {
+      "id": "nina-carducci",
+      "title": "Nina Carducci",
+      "cover": "nina-carducci.webp"
+   },
+   {
+      "id": "sophie-bluel",
+      "title": "Sophie Bluel",
+      "cover": "sophie-bluel.webp"
+   },
+   { "id": "booki", "title": "Booki", "cover": "booki.webp" },
+   {
+      "id": "mon-vieux-grimoire",
+      "title": "Mon vieux grimoire",
+      "cover": "mon-vieux-grimoire.webp"
+   },
+   { "id": "kasa", "title": "Kasa", "cover": "kasa.webp" }
+]

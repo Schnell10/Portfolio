@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+#apropos {
+   background-color: $main-color;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 40px;
+   padding: 30px 20px;
+
+   h2 {
+      font-family: 'Romanesco', cursive;
+      font-size: 50px;
+      color: $white-color;
+   }
+
+   p {
+      color: $white-color;
+      font-size: 15px;
+      margin-bottom: 20px;
+   }
+}

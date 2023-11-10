@@ -1,6 +1,8 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 import './contact.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
    const onSubmit = (e) => {
@@ -27,6 +29,7 @@ const Contact = () => {
 
    return (
       <div id="contact">
+         <FontAwesomeIcon icon={faBookmark} />
          <h2>Me contacter</h2>
          <div className="container-contact">
             <div className="contact-text">

@@ -20,11 +20,14 @@ const Header = () => {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        className="first-nav"
                      >
                         Accueil
                      </ScrollLink>
                   ) : (
-                     <HashLink to="/#accueil">Accueil</HashLink>
+                     <HashLink to="/#accueil" className="first-nav">
+                        Accueil
+                     </HashLink>
                   )}
                </li>
                <li>
@@ -80,11 +83,14 @@ const Header = () => {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        className="last-nav"
                      >
                         Me Contacter
                      </ScrollLink>
                   ) : (
-                     <HashLink to="/#contact">Me Contacter</HashLink>
+                     <HashLink to="/#contact" className="last-nav">
+                        Me Contacter
+                     </HashLink>
                   )}
                </li>
             </ul>

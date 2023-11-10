@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.main-404 {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   gap: 80px;
+   margin: 70px 70px;
+   color: $main-color;
+
+   h2 {
+      font-size: 288px;
+      font-weight: 700;
+   }
+
+   p {
+      font-size: 36px;
+      text-align: center;
+   }
+
+   span {
+      font-size: 36px;
+   }
+
+   a {
+      color: $main-color;
+      text-decoration: none;
+      text-decoration: underline $main-color;
+      font-size: 18px;
+   }
+}

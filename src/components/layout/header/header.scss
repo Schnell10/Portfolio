@@ -9,6 +9,7 @@ header {
    height: 30px;
    position: fixed;
    top: 0; /* Fixe le header en haut de la fenêtre */
+   z-index: 100; /* Pour qu'il soit toujours au dessus des autres*/
 
    h1 {
       height: 100%;
@@ -46,10 +47,17 @@ header {
                color 1s ease;
          }
 
+         .first-nav {
+            border-radius: 4px 0 0 4px;
+         }
+
+         .last-nav {
+            border-radius: 0 4px 4px 0;
+         }
+
          a.active {
             background-color: rgba($main-color, 0.9);
             color: $white-color;
-            border-radius: 2px;
          }
       }
    }

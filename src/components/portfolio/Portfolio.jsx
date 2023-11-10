@@ -12,10 +12,7 @@ const Portfolio = () => {
             développement front-end et back-end. J'ai utilisé des technologies
             telles que HTML, CSS, JavaScript, React, Node.js, et j'ai acquis de
             l'expérience en optimisation et en débogage grâce à des outils comme
-            Chrome DevTools, Wave et Lighthouse. Cette formation m'a préparée à
-            relever des défis variés dans le domaine du développement web, de la
-            création d'interfaces interactives à l'optimisation des performances
-            des sites web.
+            Chrome DevTools, Wave et Lighthouse.
          </p>
          <Gallery />
       </section>

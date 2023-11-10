@@ -2,18 +2,45 @@
    {
       "id": "nina-carducci",
       "title": "Nina Carducci",
-      "cover": "nina-carducci.webp"
+      "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/nina-carducci.webp",
+      "description": "Débug et optimisation d'un site de photographe",
+      "tags": ["SEO", "Accessibilité", "chromeDev", "Optimisation"],
+      "linkWebsite": "https://schnell10.github.io/OCProjet5_optimisation_SEO_debug/",
+      "github": "https://github.com/Schnell10/OCProjet5_optimisation_SEO_debug.git"
    },
    {
       "id": "sophie-bluel",
       "title": "Sophie Bluel",
-      "cover": "sophie-bluel.webp"
+      "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/sophie-bluel.webp",
+      "description": "Création d'une page web dynamique avec JavaScript",
+      "tags": ["Javascript", "API", "CSS"],
+      "github": "https://github.com/Schnell10/OCProjet3_dev_web_JavaScript.git"
    },
-   { "id": "booki", "title": "Booki", "cover": "booki.webp" },
+   {
+      "id": "booki",
+      "title": "Booki",
+      "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/booki.webp",
+      "description": "Créeation de la page d'accueil d'une agence de voyage",
+      "tags": ["HTML", "CSS"],
+      "descriptionCollapse": "Ma mission consistait à intégrer l'interface d'un site Internet visant à faciliter la recherche d'hébergements et d'activités dans différentes villes. J'ai utilisé les langages HTML et CSS pour créer à partir des maquettes une interface attrayante et conviviale pour les utilisateurs.",
+      "linkWebsite": "https://schnell10.github.io/OC_projet2_integration_web_avec_HTML_CSS/",
+      "github": "https://github.com/Schnell10/OC_projet2_integration_web_avec_HTML_CSS.git"
+   },
    {
       "id": "mon-vieux-grimoire",
       "title": "Mon vieux grimoire",
-      "cover": "mon-vieux-grimoire.webp"
+      "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/mon-vieux-grimoire.webp",
+      "description": "Développement du back-end d'un site de notation de livres",
+      "tags": ["MongoDB", "Mongoose", "API", "Express", "Node.JS"],
+      "github": "https://github.com/Schnell10/OCProjet7_developpez-le-back-end-d-un-site-de-notation-de-livres.git"
    },
-   { "id": "kasa", "title": "Kasa", "cover": "kasa.webp" }
+   {
+      "id": "kasa",
+      "title": "Kasa",
+      "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/kasa.webp",
+      "description": "Création d'une application web de location immobilière avec React",
+      "tags": ["React", "HTML", "SASS", "React Router"],
+      "linkWebsite": "https://schnell10.github.io/OCProjet6_Crez-une-application-web-de-location-immobiliere-avec-React/",
+      "github": "https://github.com/Schnell10/OCProjet6_Crez-une-application-web-de-location-immobiliere-avec-React.git"
+   }
 ]

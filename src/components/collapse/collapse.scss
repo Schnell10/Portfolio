@@ -1,4 +1,5 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
 
 .collapse {
    width: 80%;
@@ -17,12 +18,22 @@
       align-items: center;
       padding: 0 10px;
       background-color: $main-color;
-      font-size: 24px;
       border: none;
       border-radius: 7px;
+      @include mobile() {
+         height: 35px;
+      }
+      @include mobile() {
+         height: 30px;
+      }
 
       p {
+         font-size: 22px;
          color: $white-color;
+
+         @include mobile() {
+            font-size: 18px;
+         }
       }
    }
 
@@ -40,10 +51,28 @@
       padding: 0 15px 0 15px;
       min-height: 52px; //on applique min-height pour faciliter les margin/gap entre les collapses
       max-height: 52px;
-      font-size: 18px;
       transition:
          max-height 0.4s ease-out,
          padding 0.4s ease-in-out;
+      @include mobile() {
+         min-height: 35px;
+         max-height: 35px;
+      }
+      @include mobile() {
+         min-height: 30px;
+         max-height: 30px;
+      }
+
+      p {
+         font-size: 18px;
+
+         @include mobile() {
+            font-size: 16px;
+         }
+         @include mobile() {
+            font-size: 14px;
+         }
+      }
    }
 
    .collapse__toggle.active {
@@ -52,5 +81,11 @@
       transition:
          max-height 0.4s ease-in-out,
          padding 0.4s ease-in-out;
+      @include mobile() {
+         padding: 40px 15px 15px 15px;
+      }
+      @include mobile() {
+         padding: 34px 15px 15px 15px;
+      }
    }
 }

@@ -1,4 +1,5 @@
 @import '../../../styles/variables.scss';
+@import '../../../styles/mixin.scss';
 
 header {
    display: flex;
@@ -10,11 +11,21 @@ header {
    position: fixed;
    top: 0; /* Fixe le header en haut de la fenêtre */
    z-index: 100; /* Pour qu'il soit toujours au dessus des autres*/
+   @include mobile() {
+      height: 30px;
+   }
 
    .header-left {
       display: flex;
       align-items: center;
       gap: 30px;
+      @include mobile() {
+         gap: 10px;
+      }
+      @include small-mobile() {
+         gap: 5px;
+         margin-right: 5px;
+      }
 
       img {
          width: 64px;
@@ -22,12 +33,28 @@ header {
          border-radius: 50%;
          object-fit: cover;
          margin: 25px 0 0 30px;
+         @include mobile() {
+            width: 45px;
+            height: 45px;
+            margin: 17px 0 0 7px;
+         }
+         @include small-mobile() {
+            width: 35px;
+            height: 35px;
+            margin: 17px 0 0 3px;
+         }
       }
 
       .logo {
          display: flex;
          gap: 10px;
          margin-top: 3px;
+         @include mobile() {
+            gap: 5px;
+         }
+         @include small-mobile() {
+            display: none;
+         }
 
          svg {
             font-size: 25px;
@@ -36,6 +63,11 @@ header {
             border-radius: 50%;
             padding: 7px 7px;
             transition: color 0.3s;
+            @include mobile() {
+               font-size: 22px;
+               padding: 5px 5px;
+               margin-top: 6px;
+            }
          }
          svg:hover {
             color: $main-color;

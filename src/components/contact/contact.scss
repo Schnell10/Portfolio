@@ -1,4 +1,5 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
 
 #contact {
    padding: 60px 70px 100px 70px;
@@ -7,18 +8,30 @@
    flex-direction: column;
    align-items: center;
    gap: 40px;
+   @include small-mobile() {
+      padding: 60px 50px 100px 50px;
+   }
+   @include very-small-mobile() {
+      padding: 60px 30px 100px 30px;
+   }
 
    h2 {
       font-family: 'Yellowtail', cursive;
       font-size: 50px;
       color: $white-color;
-      margin-bottom: 50px;
+      margin-bottom: 20px;
+      @include mobile() {
+         font-size: 40px;
+      }
    }
 
    .container-contact {
       display: flex;
       justify-content: center;
       gap: 50px;
+      @include mobile() {
+         flex-direction: column;
+      }
 
       .contact-text {
          width: 40%;
@@ -27,6 +40,10 @@
          flex-direction: column;
          justify-content: center;
          gap: 10px;
+         @include mobile() {
+            width: 100%;
+            text-align: center;
+         }
 
          h3,
          p {
@@ -36,9 +53,15 @@
          h3 {
             font-weight: 500;
             font-size: 25px;
+            @include mobile() {
+               font-size: 20px;
+            }
          }
          p {
             font-size: 18px;
+            @include mobile() {
+               font-size: 16px;
+            }
          }
       }
       form {
@@ -48,6 +71,9 @@
          align-items: center;
          justify-content: center;
          gap: 15px;
+         @include mobile() {
+            width: 100%;
+         }
 
          input,
          button {
@@ -75,6 +101,9 @@
             background-color: $text-color;
             font-size: 22px;
             font-weight: 500;
+            @include mobile() {
+               font-size: 18px;
+            }
          }
 
          button:hover {

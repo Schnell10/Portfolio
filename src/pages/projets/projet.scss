@@ -1,4 +1,5 @@
 @import '../../styles/styles.scss';
+@import '../../styles/mixin.scss';
 
 .projet {
    margin: 70px 100px;
@@ -7,6 +8,9 @@
    flex-direction: column;
    align-items: center;
    gap: 40px;
+   @include mobile() {
+      margin: 60px 30px;
+   }
 
    .container-data {
       display: flex;
@@ -17,10 +21,19 @@
       h2 {
          font-family: 'Romanesco', cursive;
          font-size: 70px;
+         @include mobile() {
+            font-size: 40px;
+         }
+         @include small-mobile() {
+            text-align: center;
+         }
       }
 
       p {
          text-align: center;
+         @include mobile() {
+            font-size: 16px;
+         }
       }
 
       .tags {
@@ -36,6 +49,9 @@
             border-radius: 15px;
             color: $white-color;
             font-size: 14px;
+            @include small-mobile() {
+               padding: 3px 15px;
+            }
          }
       }
    }
@@ -53,9 +69,19 @@
       align-items: center;
       position: relative;
       transition: filter 0.3s;
+      width: 60%;
+      @include tablette() {
+         width: 70%;
+      }
+      @include mobile() {
+         width: 80%;
+      }
+      @include small-mobile() {
+         width: 90%;
+      }
 
       .img-site {
-         width: 50%;
+         width: 100%;
          object-fit: contain;
          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
          border-radius: 10px;
@@ -73,6 +99,10 @@
             color: $white-color;
             font-size: 16px;
             transition: background-color 0.3s;
+            @include small-mobile() {
+               font-size: 14px;
+               padding: 5px 25px;
+            }
          }
 
          a:hover {

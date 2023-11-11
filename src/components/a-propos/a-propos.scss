@@ -1,22 +1,33 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
 #apropos {
    background-color: $main-color;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
-   gap: 40px;
+   gap: 35px;
    padding: 30px 120px;
+   @include mobile() {
+      padding: 25px 60px;
+   }
 
    h2 {
       font-family: 'Yellowtail', cursive;
       font-size: 50px;
       color: $white-color;
+      @include mobile() {
+         font-size: 40px;
+      }
    }
 
    p {
       color: $white-color;
       font-size: 15px;
       margin-bottom: 20px;
+      @include mobile() {
+         font-size: 13px;
+      }
    }
 }

@@ -1,4 +1,5 @@
 @import '../../../../styles/variables.scss';
+@import '../../../../styles/mixin.scss';
 
 nav {
    height: 100%;
@@ -27,6 +28,17 @@ nav {
             transition:
                background-color 1s ease,
                color 1s ease;
+            @include mobile() {
+               padding: 0 5px;
+               font-size: 12px;
+            }
+            @include small-mobile() {
+               text-align: center;
+            }
+            @include very-small-mobile() {
+               padding: 0 2px;
+               font-size: 8px;
+            }
          }
 
          .first-nav {

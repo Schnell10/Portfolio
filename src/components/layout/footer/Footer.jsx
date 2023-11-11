@@ -7,8 +7,20 @@ const Footer = () => {
    return (
       <footer>
          <div className="logo">
-            <FontAwesomeIcon icon={faGithub} />
-            <FontAwesomeIcon icon={faLinkedinIn} />
+            <a
+               href="https://github.com/Schnell10"
+               target="_blank"
+               rel="noopener noreferrer"
+            >
+               <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+               href="https://www.linkedin.com/in/pierre-schnell-33a26a142"
+               target="_blank"
+               rel="noopener noreferrer"
+            >
+               <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
          </div>
          <h3>© 2023 - Pierre Schnell</h3>
       </footer>

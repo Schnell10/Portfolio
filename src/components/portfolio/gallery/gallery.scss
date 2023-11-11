@@ -1,11 +1,18 @@
 @import '../../../styles/variables.scss';
+@import '../../../styles/mixin.scss';
 
 .gallery {
    border-radius: 25px;
    display: grid;
-   grid-template-columns: 5fr 5fr;
-   grid-column-gap: 80px;
-   grid-row-gap: 80px;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 80px;
+
+   @include tablette() {
+      grid-gap: 30px;
+   }
+   @include mobile() {
+      grid-template-columns: 1fr;
+   }
 
    figure {
       transition: transform 0.3s;

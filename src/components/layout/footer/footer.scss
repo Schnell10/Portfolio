@@ -1,4 +1,5 @@
 @import '../../../styles/variables.scss';
+@import '../../../styles/mixin.scss';
 
 footer {
    height: 80px;
@@ -7,17 +8,32 @@ footer {
    align-items: center;
    justify-content: center;
    gap: 150px;
+   @include mobile() {
+      height: 40px;
+      gap: 40px;
+   }
+
    h3 {
       color: $white-color;
+      @include mobile() {
+         font-size: 16px;
+      }
    }
 
    .logo {
       display: flex;
       gap: 40px;
+      @include mobile() {
+         gap: 20px;
+      }
+
       svg {
          color: $white-color;
          font-size: 40px;
          transition: color 0.3s;
+         @include mobile() {
+            font-size: 28px;
+         }
       }
 
       svg:hover {

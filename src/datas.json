@@ -5,6 +5,7 @@
       "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/nina-carducci.webp",
       "description": "Débug et optimisation d'un site de photographe",
       "tags": ["SEO", "Accessibilité", "chromeDev", "Optimisation"],
+      "descriptionCollapse": "En charge de l'optimisation du site de Nina Carducci, photographe, pour résoudre des problèmes de performance et augmenter sa visibilité en ligne. J'ai effectué des optimisations au niveau des images, du code, et de la structure, en plus d'ajouter un référencement local via Schema.org. Des améliorations ont également été apportées avec l'intégration de métadonnées pour les réseaux sociaux. L'utilisation d'outils tels que Lighthouse a été cruciale dans ce processus. Bien que l'assimilation des points d'arrêt ait demandé du temps et un effort soutenu, j'ai finalement réussi à surmonter ces défis, aboutissant à la finalisation réussie de ce projet d'optimisation.",
       "linkWebsite": "https://schnell10.github.io/OCProjet5_optimisation_SEO_debug/",
       "github": "https://github.com/Schnell10/OCProjet5_optimisation_SEO_debug.git"
    },
@@ -14,6 +15,7 @@
       "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/sophie-bluel.webp",
       "description": "Création d'une page web dynamique avec JavaScript",
       "tags": ["Javascript", "API", "CSS"],
+      "descriptionCollapse": "Cette expérience m'a ouvert les portes du monde JavaScript pour donner vie à la partie dynamique du portfolio d'une photographe. Plongé dans l'univers des requêtes HTTP avec l'utilisation de fetch dans le front-end et apprenant à manipuler le DOM, j'ai également eu l'opportunité de m'initier à l'organisation architecturale d'un projet professionnel pour la première fois. Face à des défis tels que la mise en place d'une modale et de filtres complexes, j'ai démontré ma capacité à trouver des solutions efficaces à ces problématiques techniques.",
       "github": "https://github.com/Schnell10/OCProjet3_dev_web_JavaScript.git"
    },
    {
@@ -22,7 +24,7 @@
       "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/booki.webp",
       "description": "Créeation de la page d'accueil d'une agence de voyage",
       "tags": ["HTML", "CSS"],
-      "descriptionCollapse": "Ma mission consistait à intégrer l'interface d'un site Internet visant à faciliter la recherche d'hébergements et d'activités dans différentes villes. J'ai utilisé les langages HTML et CSS pour créer à partir des maquettes une interface attrayante et conviviale pour les utilisateurs.",
+      "descriptionCollapse": "Dans le cadre de ma formation chez OpenClassrooms, j'ai eu l'opportunité de prendre en charge l'intégration de la maquette du site web de l'agence Booki, en veillant à respecter le modèle établi sur Figma. Mon travail s'est concentré sur l'utilisation exclusive d'HTML et de CSS. Au cours du développement, j'ai été confronté à mes premières difficultés, notamment la création d'une mise en page responsive et l'adoption de Git et GitHub. Cependant, grâce à un effort soutenu, j'ai réussi à surmonter ces défis avec succès.",
       "linkWebsite": "https://schnell10.github.io/OC_projet2_integration_web_avec_HTML_CSS/",
       "github": "https://github.com/Schnell10/OC_projet2_integration_web_avec_HTML_CSS.git"
    },
@@ -32,6 +34,7 @@
       "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/mon-vieux-grimoire.webp",
       "description": "Développement du back-end d'un site de notation de livres",
       "tags": ["MongoDB", "Mongoose", "API", "Express", "Node.JS"],
+      "descriptionCollapse": "Première incursion dans le développement du backend d'un site web. Ma mission consistait à concevoir l'API et le serveur (à l'aide de Node.js et Express.js) pour soutenir le front-end du site 'Mon Vieux Grimoire'. Ce dernier permet aux utilisateurs de s'enregistrer, d'ajouter les livres de leur choix, et de les noter. L'un des défis majeurs résidait dans l'utilisation de Multer et Sharp pour gérer l'enregistrement et la conversion d'images, une problématique que j'ai réussi à résoudre avec succès.",
       "github": "https://github.com/Schnell10/OCProjet7_developpez-le-back-end-d-un-site-de-notation-de-livres.git"
    },
    {
@@ -40,6 +43,7 @@
       "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/kasa.webp",
       "description": "Création d'une application web de location immobilière avec React",
       "tags": ["React", "HTML", "SASS", "React Router"],
+      "descriptionCollapse": "Découverte de React lors de la réalisation de la nouvelle version du site web de Kasa, dédié à la location immobilière. J'ai eu l'opportunité de m'initier à la création de composants fonctionnels, à la manipulation des props, des hooks, et bien d'autres concepts essentiels. La partie CSS du site a été élaborée avec SASS en SCSS. Une attention particulière a été accordée à la gestion du routing, car c'était l'aspect du projet qui présentait le plus de défis. Mon objectif était de parvenir à une compréhension approfondie de son fonctionnement, et bien que cela ait exigé beaucoup de travail et d'efforts, j'ai réussi à surmonter cet obstacle pour mener le projet à son terme.",
       "linkWebsite": "https://schnell10.github.io/OCProjet6_Crez-une-application-web-de-location-immobiliere-avec-React/",
       "github": "https://github.com/Schnell10/OCProjet6_Crez-une-application-web-de-location-immobiliere-avec-React.git"
    }

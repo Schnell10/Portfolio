@@ -9,7 +9,7 @@ const Gallery = () => {
       <div className="gallery">
          {cardsData.map((card) => (
             <figure key={card.id}>
-               <Link to={'/projet/' + card.id}>
+               <Link to={'/Portfolio/projet/' + card.id}>
                   <Card cover={card.cover} title={card.title} />
                   {/* On fait passer les props au composant Card*/}
                </Link>

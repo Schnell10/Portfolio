@@ -11,6 +11,9 @@
    @include mobile() {
       margin: 60px 30px;
    }
+   @include micro-mobile() {
+      margin: 60px 10px;
+   }
 
    .container-data {
       display: flex;
@@ -19,7 +22,7 @@
       gap: 15px;
 
       h2 {
-         font-family: 'Romanesco', cursive;
+         font-family: 'Yellowtail', cursive;
          font-size: 70px;
          @include mobile() {
             font-size: 40px;
@@ -52,6 +55,9 @@
             @include small-mobile() {
                padding: 3px 15px;
             }
+            @include micro-mobile() {
+               font-size: 11px;
+            }
          }
       }
    }
@@ -69,7 +75,7 @@
       align-items: center;
       position: relative;
       transition: filter 0.3s;
-      width: 60%;
+      width: 50%;
       @include tablette() {
          width: 70%;
       }
@@ -103,11 +109,26 @@
                font-size: 14px;
                padding: 5px 25px;
             }
+            @include very-small-mobile() {
+               font-size: 12px;
+               padding: 3px 18px;
+            }
          }
 
          a:hover {
             background-color: $main-color;
          }
+      }
+   }
+
+   .collapse {
+      width: 60%;
+      @include tablette() {
+         width: 80%;
+      }
+
+      @include mobile() {
+         width: 90%;
       }
    }
 }

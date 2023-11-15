@@ -39,6 +39,9 @@ nav {
                padding: 0 2px;
                font-size: 8px;
             }
+            @include micro-mobile() {
+               font-size: 7px;
+            }
          }
 
          .first-nav {

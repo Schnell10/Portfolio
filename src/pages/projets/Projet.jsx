@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useParams, Navigate } from 'react-router-dom'
 import datas from '../../datas.json'
 import './projet.scss'
-import Collapse from '../../components/collapse/collapse'
+import Collapse from '../../components/collapse/Collapse'
 
 const Projet = () => {
    //On utilise use effect pour mettre le scroll sur le haut de notre page lorsqu'on change de page
@@ -16,7 +16,7 @@ const Projet = () => {
 
    if (!dataProjet) {
       //Si dataProjet = false c'est que l'id de notre url correspond à aucun id d'un projet donc on est redirigé vers la page 404
-      return <Navigate to="/page-404" replace={true} />
+      return <Navigate to="/Portfolio/page-404" replace={true} />
    }
 
    return (

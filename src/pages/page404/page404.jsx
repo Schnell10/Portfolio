@@ -9,7 +9,7 @@ const Page404 = () => {
          <p>
             Oups! La page que<span> vous demandez n'existe pas.</span>
          </p>
-         <Link to="/">Retourner sur la page d'accueil</Link>
+         <Link to="/Portfolio">Retourner sur la page d'accueil</Link>
       </div>
    )
 }

@@ -15,6 +15,9 @@
       padding: 45px 40px 60px 40px;
       gap: 20px;
    }
+   @include micro-mobile() {
+      padding: 45px 15px 50px 15px;
+   }
 
    h2 {
       font-family: 'Yellowtail', cursive;
@@ -22,6 +25,9 @@
       color: $text-color;
       @include mobile() {
          font-size: 40px;
+      }
+      @include micro-mobile() {
+         font-size: 30px;
       }
    }
 

@@ -9,8 +9,11 @@
    justify-content: space-between;
    gap: 35px;
    padding: 30px 120px;
+   @include tablette() {
+      padding: 25px 40px;
+   }
    @include mobile() {
-      padding: 25px 60px;
+      padding: 25px 20px;
    }
 
    h2 {
@@ -19,15 +22,54 @@
       color: $white-color;
       @include mobile() {
          font-size: 40px;
+         text-align: center;
+      }
+      @include micro-mobile() {
+         font-size: 30px;
       }
    }
 
-   p {
-      color: $white-color;
-      font-size: 15px;
-      margin-bottom: 20px;
-      @include mobile() {
-         font-size: 13px;
+   div {
+      display: flex;
+      align-items: center;
+      gap: 70px;
+      @include small-mobile() {
+         flex-direction: column;
+         gap: 50px;
+      }
+
+      .photo-id {
+         width: 200px;
+         height: auto;
+         object-fit: cover;
+         border: 3px solid $white-color;
+         border-radius: 5px;
+         @include micro-mobile() {
+            width: 150px;
+         }
+      }
+
+      .initial-text {
+         color: $white-color;
+         font-size: 16px;
+         margin-bottom: 20px;
+         @include tablette() {
+            font-size: 14px;
+         }
+         @include small-mobile() {
+            display: none;
+         }
+      }
+
+      .collapse {
+         display: none;
+         @include small-mobile() {
+            display: block;
+         }
+
+         button {
+            background-color: $text-color;
+         }
       }
    }
 }

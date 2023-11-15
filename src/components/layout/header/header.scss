@@ -14,6 +14,9 @@ header {
    @include mobile() {
       height: 30px;
    }
+   @include micro-mobile() {
+      justify-content: flex-end;
+   }
 
    .header-left {
       display: flex;
@@ -42,6 +45,9 @@ header {
             width: 35px;
             height: 35px;
             margin: 17px 0 0 3px;
+         }
+         @include micro-mobile() {
+            display: none;
          }
       }
 

@@ -33,6 +33,9 @@
       @include small-mobile() {
          font-size: 22px;
       }
+      @include micro-mobile() {
+         font-size: 18px;
+      }
    }
 }
 

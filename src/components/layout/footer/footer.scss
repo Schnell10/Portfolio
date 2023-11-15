@@ -12,11 +12,17 @@ footer {
       height: 40px;
       gap: 40px;
    }
+   @include very-small-mobile() {
+      gap: 20px;
+   }
 
    h3 {
       color: $white-color;
       @include mobile() {
          font-size: 16px;
+      }
+      @include micro-mobile() {
+         font-size: 12px;
       }
    }
 
@@ -25,6 +31,9 @@ footer {
       gap: 40px;
       @include mobile() {
          gap: 20px;
+      }
+      @include very-small-mobile() {
+         gap: 10px;
       }
 
       svg {

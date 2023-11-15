@@ -11,13 +11,19 @@
 }
 
 @mixin small-mobile() {
-   @media all and (max-width: 512px) {
+   @media all and (max-width: 580px) {
       @content;
    }
 }
 
 @mixin very-small-mobile() {
    @media all and (max-width: 385px) {
+      @content;
+   }
+}
+
+@mixin micro-mobile() {
+   @media all and (max-width: 275px) {
       @content;
    }
 }

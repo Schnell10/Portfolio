@@ -16,7 +16,7 @@ const Projet = () => {
 
    if (!dataProjet) {
       //Si dataProjet = false c'est que l'id de notre url correspond à aucun id d'un projet donc on est redirigé vers la page 404
-      return <Navigate to="/Portfolio/page-404" replace={true} />
+      return <Navigate to="/page-404" replace={true} />
    }
 
    return (

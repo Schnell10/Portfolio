@@ -11,7 +11,7 @@ const Nav = () => {
       <nav>
          <ul>
             <li>
-               {location.pathname === '/Portfolio' ? (
+               {location.pathname === '/' ? (
                   <ScrollLink
                      to="accueil"
                      // Activation du mode espion pour mettre à jour automatiquement le lien actif en fonction du défilement
@@ -26,13 +26,13 @@ const Nav = () => {
                      Accueil
                   </ScrollLink>
                ) : (
-                  <HashLink to="/Portfolio#accueil" className="first-nav">
+                  <HashLink to="/#accueil" className="first-nav">
                      Accueil
                   </HashLink>
                )}
             </li>
             <li>
-               {location.pathname === '/Portfolio' ? (
+               {location.pathname === '/' ? (
                   <ScrollLink
                      to="apropos"
                      spy={true}
@@ -43,11 +43,11 @@ const Nav = () => {
                      À Propos
                   </ScrollLink>
                ) : (
-                  <HashLink to="/Portfolio#apropos">À Propos</HashLink>
+                  <HashLink to="/#apropos">À Propos</HashLink>
                )}
             </li>
             <li>
-               {location.pathname === '/Portfolio' ? (
+               {location.pathname === '/' ? (
                   <ScrollLink
                      to="competences"
                      spy={true}
@@ -58,11 +58,11 @@ const Nav = () => {
                      Compétences
                   </ScrollLink>
                ) : (
-                  <HashLink to="/Portfolio#competences">Compétences</HashLink>
+                  <HashLink to="/#competences">Compétences</HashLink>
                )}
             </li>
             <li>
-               {location.pathname === '/Portfolio' ? (
+               {location.pathname === '/' ? (
                   <ScrollLink
                      to="portfolio"
                      spy={true}
@@ -73,11 +73,11 @@ const Nav = () => {
                      Portfolio
                   </ScrollLink>
                ) : (
-                  <HashLink to="/Portfolio#portfolio">Portfolio</HashLink>
+                  <HashLink to="/#portfolio">Portfolio</HashLink>
                )}
             </li>
             <li>
-               {location.pathname === '/Portfolio' ? (
+               {location.pathname === '/' ? (
                   <ScrollLink
                      to="contact"
                      spy={true}
@@ -89,7 +89,7 @@ const Nav = () => {
                      Me Contacter
                   </ScrollLink>
                ) : (
-                  <HashLink to="/Portfolio#contact" className="last-nav">
+                  <HashLink to="/#contact" className="last-nav">
                      Me Contacter
                   </HashLink>
                )}

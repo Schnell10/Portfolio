@@ -37,10 +37,14 @@ nav {
             }
             @include very-small-mobile() {
                padding: 0 2px;
-               font-size: 8px;
+               font-size: 10px;
+            }
+
+            @include smaller-mobile() {
+               font-size: 9px;
             }
             @include micro-mobile() {
-               font-size: 7px;
+               font-size: 8px;
             }
          }
 

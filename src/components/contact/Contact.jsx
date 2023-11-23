@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
+import validator from 'validator'
 
 import './contact.scss'
 
@@ -17,6 +18,13 @@ const Contact = () => {
          name: formData.get('name'),
          email: formData.get('email'),
          message: formData.get('message'),
+      }
+      //Regexp rour vérifier l'email via la bibliothèque @hapi/address
+      if (!userData.email || !validator.isEmail(userData.email)) {
+         setMessage('Veuillez saisir une adresse e-mail valide.')
+      }
+      if (!userData.name || !userData.message) {
+         setMessage('Merci de compléter tous les champs')
       }
 
       try {

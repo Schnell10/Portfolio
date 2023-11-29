@@ -40,6 +40,13 @@
       }
 
       img {
+         width: 35px;
+         height: 70%;
+
+         @include mobile() {
+            width: 30px;
+            height: 100%;
+         }
          @include very-small-mobile() {
             width: 22px;
          }

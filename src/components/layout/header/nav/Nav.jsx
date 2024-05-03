@@ -18,7 +18,7 @@ const Nav = () => {
                      spy={true}
                      // Défilement en douceur activé pour une expérience utilisateur plus agréable
                      smooth={true}
-                     offset={0}
+                     offset={-50}
                      // Durée du défilement en millisecondes (500 millisecondes ici)
                      duration={500}
                      className="first-nav"
@@ -37,7 +37,7 @@ const Nav = () => {
                      to="apropos"
                      spy={true}
                      smooth={true}
-                     offset={0}
+                     offset={-50}
                      duration={500}
                   >
                      À Propos
@@ -52,7 +52,7 @@ const Nav = () => {
                      to="competences"
                      spy={true}
                      smooth={true}
-                     offset={0}
+                     offset={-50}
                      duration={500}
                   >
                      Compétences
@@ -67,7 +67,7 @@ const Nav = () => {
                      to="portfolio"
                      spy={true}
                      smooth={true}
-                     offset={0}
+                     offset={-50}
                      duration={500}
                   >
                      Portfolio
@@ -82,7 +82,7 @@ const Nav = () => {
                      to="contact"
                      spy={true}
                      smooth={true}
-                     offset={0}
+                     offset={-50}
                      duration={500}
                      className="last-nav"
                   >

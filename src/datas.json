@@ -50,7 +50,7 @@
    {
       "id": "taskpilot",
       "title": "TaskPilot",
-      "cover": "./assets/images/screen.webp",
+      "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/screen-taskpilot.webp",
       "description": "Création d'une application de tâches",
       "tags": [
          "React",
@@ -64,7 +64,6 @@
          "Node.JS"
       ],
       "descriptionCollapse": "Mon dernier projet de développement web représente l'aboutissement de mes compétences acquises en conception et développement. Il s'agit d'un site complet où j'ai intégré à la fois le front-end et le back-end, mettant en pratique mes connaissances pour créer une interface utilisateur intuitive et attrayante, ainsi que mes compétences en langages et frameworks côté serveur tels que Node.js, Express.js et MongoDB pour mettre en place une architecture robuste et fonctionnelle. ",
-      "linkWebsite": "https://schnell10.github.io/OCProjet6_Crez-une-application-web-de-location-immobiliere-avec-React/",
-      "github": "https://github.com/Schnell10/OCProjet6_Crez-une-application-web-de-location-immobiliere-avec-React.git"
+      "github": "https://github.com/Schnell10/taskpilot.git"
    }
 ]

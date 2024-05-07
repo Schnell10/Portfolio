@@ -22,7 +22,7 @@ const Footer = () => {
                <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
          </div>
-         <h3>© 2023 - Pierre Schnell</h3>
+         <h3>© 2024 - Pierre Schnell</h3>
       </footer>
    )
 }

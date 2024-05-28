@@ -25,7 +25,7 @@
       "description": "Création de la page d'accueil d'une agence de voyage",
       "tags": ["HTML", "CSS"],
       "descriptionCollapse": "Dans le cadre de ma formation chez OpenClassrooms, j'ai eu l'opportunité de prendre en charge l'intégration de la maquette du site web de l'agence Booki, en veillant à respecter le modèle établi sur Figma. Mon travail s'est concentré sur l'utilisation exclusive d'HTML et de CSS. Au cours du développement, j'ai été confronté à mes premières difficultés, notamment la création d'une mise en page responsive et l'adoption de Git et GitHub. Cependant, grâce à un effort soutenu, j'ai réussi à surmonter ces défis avec succès.",
-      "linkWebsite": "https://github.com/Schnell10/Booki-integration-HTML-CSS.git",
+      "linkWebsite": "https://schnell10.github.io/Booki-integration-HTML-CSS/",
       "github": "https://github.com/Schnell10/OC_projet2_integration_web_avec_HTML_CSS.git"
    },
    {

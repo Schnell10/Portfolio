@@ -6,7 +6,7 @@
       "description": "Débug et optimisation d'un site de photographe",
       "tags": ["SEO", "Accessibilité", "chromeDev", "Optimisation"],
       "descriptionCollapse": "En charge de l'optimisation du site de Nina Carducci, photographe, pour résoudre des problèmes de performance et augmenter sa visibilité en ligne. J'ai effectué des optimisations au niveau des images, du code, et de la structure, en plus d'ajouter un référencement local via Schema.org. Des améliorations ont également été apportées avec l'intégration de métadonnées pour les réseaux sociaux. L'utilisation d'outils tels que Lighthouse a été cruciale dans ce processus. Bien que l'assimilation des points d'arrêt ait demandé du temps et un effort soutenu, j'ai finalement réussi à surmonter ces défis, aboutissant à la finalisation réussie de ce projet d'optimisation.",
-      "linkWebsite": "https://schnell10.github.io/OCProjet5_optimisation_SEO_debug/",
+      "linkWebsite": "https://schnell10.github.io/Optimisation-SEO-et-debog/",
       "github": "https://github.com/Schnell10/OCProjet5_optimisation_SEO_debug.git"
    },
    {
@@ -25,7 +25,7 @@
       "description": "Création de la page d'accueil d'une agence de voyage",
       "tags": ["HTML", "CSS"],
       "descriptionCollapse": "Dans le cadre de ma formation chez OpenClassrooms, j'ai eu l'opportunité de prendre en charge l'intégration de la maquette du site web de l'agence Booki, en veillant à respecter le modèle établi sur Figma. Mon travail s'est concentré sur l'utilisation exclusive d'HTML et de CSS. Au cours du développement, j'ai été confronté à mes premières difficultés, notamment la création d'une mise en page responsive et l'adoption de Git et GitHub. Cependant, grâce à un effort soutenu, j'ai réussi à surmonter ces défis avec succès.",
-      "linkWebsite": "https://schnell10.github.io/OC_projet2_integration_web_avec_HTML_CSS/",
+      "linkWebsite": "https://github.com/Schnell10/Booki-integration-HTML-CSS.git",
       "github": "https://github.com/Schnell10/OC_projet2_integration_web_avec_HTML_CSS.git"
    },
    {
@@ -63,7 +63,7 @@
          "Express",
          "Node.JS"
       ],
-      "descriptionCollapse": "Mon dernier projet de développement web représente l'aboutissement de mes compétences acquises en conception et développement. Il s'agit d'un site complet où j'ai intégré à la fois le front-end et le back-end, mettant en pratique mes connaissances pour créer une interface utilisateur intuitive et attrayante, ainsi que mes compétences en langages et frameworks côté serveur tels que Node.js, Express.js et MongoDB pour mettre en place une architecture robuste et fonctionnelle. ",
+      "descriptionCollapse": "Ce projet de développement web représente l'aboutissement de mes compétences acquises en conception et développement. Il s'agit d'un site complet où j'ai intégré à la fois le front-end et le back-end, mettant en pratique mes connaissances pour créer une interface utilisateur intuitive et attrayante, ainsi que mes compétences en langages et frameworks côté serveur tels que Node.js, Express.js et MongoDB pour mettre en place une architecture robuste et fonctionnelle. ",
       "github": "https://github.com/Schnell10/taskpilot.git"
    }
 ]

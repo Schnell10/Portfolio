@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 import photoId from '../../../assets/images/photo-id.webp'
 
 import './header.scss'
@@ -25,6 +26,14 @@ const Header = () => {
                   rel="noopener noreferrer"
                >
                   <FontAwesomeIcon icon={faLinkedinIn} />
+               </a>
+               <a
+                  href="https://drive.google.com/file/d/1SbCOqB9b32OOZTcS5EO20sqF-zaje6hK/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="CV"
+               >
+                  <FontAwesomeIcon icon={faFile} />
                </a>
             </div>
          </div>

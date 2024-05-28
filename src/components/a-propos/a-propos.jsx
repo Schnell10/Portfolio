@@ -13,7 +13,7 @@ const Apropos = () => {
                Passionné par la découverte et l'apprentissage, mon parcours
                atypique reflète ma détermination à suivre mes passions. Après
                des études scientifiques, j'ai exploré le monde de la cuisine
-               gastronomique pendant cinq années, cultivant ainsi ma créativité
+               gastronomique pendant huit années, cultivant ainsi ma créativité
                et mon sens du détail.
                <br /> <br />
                Cependant, l'appel du domaine scientifique n'a jamais cessé de me

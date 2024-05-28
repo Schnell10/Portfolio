@@ -6,6 +6,7 @@
    display: grid;
    grid-template-columns: 1fr 1fr;
    grid-gap: 80px;
+   width: 90%;
 
    @include tablette() {
       grid-gap: 30px;

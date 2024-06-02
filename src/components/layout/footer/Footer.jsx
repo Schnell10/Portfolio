@@ -23,7 +23,7 @@ const Footer = () => {
                <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a
-               href="https://drive.google.com/file/d/1dnuso0WGnN54pFVAhnvCUgkyoODPUA4J/view?usp=drive_link"
+               href="https://drive.google.com/file/d/1Wp_56bAs3x7nV4CqbwDsVEScAkpD3Ilt/view?usp=drive_link"
                target="_blank"
                rel="noopener noreferrer"
                title="CV"

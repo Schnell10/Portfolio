@@ -43,7 +43,7 @@
       "cover": "https://raw.githubusercontent.com/Schnell10/Portfolio/main/src/assets/images/kasa.webp",
       "description": "Création d'une application web de location immobilière avec React",
       "tags": ["React", "HTML", "SASS", "React Router"],
-      "descriptionCollapse": "Découverte de React lors de la réalisation de la nouvelle version du site web de Kasa, dédié à la location immobilière. J'ai eu l'opportunité de m'initier à la création de composants fonctionnels, à la manipulation des props, des hooks, et bien d'autres concepts essentiels. La partie CSS du site a été élaborée avec SASS en SCSS. Une attention particulière a été accordée à la gestion du routing, car c'était l'aspect du projet qui présentait le plus de défis. Mon objectif était de parvenir à une compréhension approfondie de son fonctionnement, et bien que cela ait exigé beaucoup de travail et d'efforts, j'ai réussi à surmonter cet obstacle pour mener le projet à son terme.",
+      "descriptionCollapse": "Découverte de React lors de la réalisation de la nouvelle version du site web de Kasa, dédié à la location immobilière. J'ai eu l'opportunité de m'initier à la création de composants fonctionnels, à la manipulation des props, des hooks, et bien d'autres concepts essentiels. La partie CSS du site a été élaborée avec SASS en SCSS. Une attention particulière a été accordée à la gestion du routing, car c'était l'aspect du projet qui présentait le plus de défis.",
       "linkWebsite": "https://schnell10.github.io/Kasa-page-React/",
       "github": "https://github.com/Schnell10/Kasa-page-React.git"
    },

@@ -10,21 +10,19 @@ const Apropos = () => {
          <div>
             <img className="photo-id" src={photoId} alt="portrait d'identité" />
             <p className="initial-text">
-               Passionné par la découverte et l'apprentissage, mon parcours
-               atypique reflète ma détermination à suivre mes passions. Après
-               des études scientifiques, j'ai exploré le monde de la cuisine
-               gastronomique pendant huit années, cultivant ainsi ma créativité
-               et mon sens du détail.
+               Déterminé et passionné par l'apprentissage, mon parcours atypique
+               reflète ma volonté de suivre mes passions. Après des études
+               scientifiques et huit ans dans la cuisine gastronomique, j'ai
+               choisi de me reconvertir dans le développement web.
                <br /> <br />
-               Cependant, l'appel du domaine scientifique n'a jamais cessé de me
-               captiver. C'est pourquoi j'ai décidé de m'engager dans une
-               reconversion vers le développement web. Fort de ma formation chez
-               OpenClassrooms, associée à une autodidaxie constante, je suis
-               désormais prêt à relever les défis du monde numérique.
+               Grâce à ma formation chez OpenClassrooms et à mon
+               auto-apprentissage, j'ai acquis des compétences solides en
+               front-end et back-end. Je recherche actuellement une alternance
+               pour préparer un Bachelor Développeur Web (Titre RNCP de niveau
+               6) afin de continuer à me former et à développer mes compétences.
                <br /> <br />
-               Mon objectif est de contribuer activement au monde du
-               développement web en apportant une perspective enrichissante et
-               une passion inébranlable pour l'innovation.
+               Mon objectif est de contribuer activement au développement web en
+               apportant ma créativité et mon sens du détail.
             </p>
             <Collapse />
          </div>

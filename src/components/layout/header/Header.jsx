@@ -28,7 +28,7 @@ const Header = () => {
                   <FontAwesomeIcon icon={faLinkedinIn} />
                </a>
                <a
-                  href="https://drive.google.com/file/d/1Wp_56bAs3x7nV4CqbwDsVEScAkpD3Ilt/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/15J6OQzU_ldiSXZ2KY9yp89803uqjcfVQ/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="CV"

@@ -16,6 +16,7 @@
          "Node.JS"
       ],
       "descriptionCollapse": "Ce projet de développement web représente l'aboutissement de mes compétences acquises en conception et développement. Il s'agit d'un site complet où j'ai intégré à la fois le front-end et le back-end, mettant en pratique mes connaissances pour créer une interface utilisateur intuitive et attrayante, ainsi que mes compétences en langages et frameworks côté serveur tels que Node.js, Express.js et MongoDB pour mettre en place une architecture robuste et fonctionnelle. ",
+      "linkWebsite": "https://taskpilot-beta.vercel.app/",
       "github": "https://github.com/Schnell10/taskpilot.git"
    },
    {
@@ -36,6 +37,7 @@
          "socket.io"
       ],
       "descriptionCollapse": "Ce projet a pour but de mettre en avant ma maîtrise des technologies web modernes, ainsi que ma capacité à développer des applications à la fois interactives et performantes. Il illustre également mon aptitude à intégrer des fonctionnalités de communication en temps réel, indispensables pour les plateformes de messagerie instantanée.",
+      "linkWebsite": "https://instant-talk.vercel.app/",
       "github": "je veux un leger texte de presentation poru decrire mon projet sur mon portfolio, c'dest un site que j'ai créer en MERN + socket.io, c'est un site de discussion instantannée"
    },
    {

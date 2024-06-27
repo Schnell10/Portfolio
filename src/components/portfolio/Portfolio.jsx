@@ -7,12 +7,14 @@ const Portfolio = () => {
       <section id="portfolio">
          <h2>Mes Réalisations</h2>
          <p>
-            Pendant ma formation de développeuse web chez OpenClassrooms, j'ai
-            réalisé divers projets qui ont renforcé mes compétences en
-            développement front-end et back-end. J'ai utilisé des technologies
-            telles que HTML, CSS, JavaScript, React, Node.js, et j'ai acquis de
-            l'expérience en optimisation et en débogage grâce à des outils comme
-            Chrome DevTools, Wave et Lighthouse.
+            Tout au long de ma formation chez OpenClassrooms et à travers mes
+            projets personnels, j'ai acquis une solide expérience en
+            développement front-end et back-end. J'ai travaillé avec des
+            technologies comme HTML, CSS, JavaScript, React, et Node.js, et
+            utilisé des outils tels que Chrome DevTools, Wave et Lighthouse pour
+            l'optimisation et le débogage. Voici un aperçu de mes projets,
+            incluant ceux réalisés pendant ma formation et ceux que j'ai
+            entrepris de manière autonome pour approfondir mes compétences.
          </p>
          <Gallery />
       </section>
